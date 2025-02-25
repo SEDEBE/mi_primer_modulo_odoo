@@ -1,0 +1,17 @@
+<odoo>
+  <record id="view_mi_modelo_form" model="ir.ui.view">
+    <field name="name">mi_modulo.form</field>
+    <field name="model">mi_modulo</field>
+    <field name="arch" type="xml">
+       <form>
+        <sheet>
+            <group>
+                <field name="name"/>
+                <field name="description"/>
+            </group>
+        </sheet>       
+       </form>    
+    </field>
+
+  </record>
+</odoo>
